@@ -1,0 +1,30 @@
+.header{
+    background-color: black;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 80px;
+}
+.middle{
+    display: flex;
+    flex-direction: left;
+    height: 2000px;
+    margin-top: 5px;
+}
+.side{
+    background-color: silver;
+    width: 250px;
+    margin-right: 5px;
+}
+.main{
+    background-color: grey;
+    width: 700px;
+    margin-left: 3px;
+    flex: 1;
+}
+.footer{
+    background-color: aqua;
+    height: 70px;
+    margin-top: 5px;
+}
